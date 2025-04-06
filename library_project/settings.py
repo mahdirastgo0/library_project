@@ -29,9 +29,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-CSRF_TRUSTED_ORIGINS = [
-    '',  # Add your ngrok domain here
-]
+CSRF_TRUSTED_ORIGINS = []
 
 
 # Application definition
